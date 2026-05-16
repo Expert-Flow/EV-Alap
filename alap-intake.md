@@ -9,13 +9,13 @@ A `/alap` ebből a fájlból dolgozik. A válaszaid alapján legenerálja:
 - `references/voice.md` — hogyan beszélsz
 - `kimenet/ev-aios-atadas.md` — átemelhető fájl az EV-AIOS-ba
 
-**Kemény limit: 10 kérdés, 4 fázis.** Minden kérdés 60-120 másodperc alatt megválaszolható. Ne túlgondold — bármikor szerkesztheted és újrafuttathatod a `/alap`-ot.
+**10 kérdés, 4 rész.** **Az első kérdés a legnehezebb. Ott akár 10 percig is gondolkodhatsz — ez normális. A többi gyorsabban megy. Összesen 60-90 perc. Szétoszthatod 2-3 napra. A válaszaid automatikusan mentődnek a fájlba.**
 
 A kérdések szándékosan **konkrét pillanatokra** kérdeznek, nem absztrakt kategóriákra. Egy konkrét történet többet ér, mint egy szép címke.
 
 ---
 
-## FÁZIS 1 — TE
+## 1. rész — Te magad
 
 ### Q1 — Eredet
 
@@ -31,9 +31,9 @@ Ne általánosíts ("sokaknak segítettem már"). Egy ember. Egy szituáció.
 
 ### Q2 — Munka
 
-Mit csinálsz konkrétan? **Nem a kategóriát** ("coach", "tanácsadó", "marketinges"), hanem a tényleges deliverable-t.
+Mit csinálsz konkrétan? **Nem a kategóriát** ("coach", "tanácsadó", "marketinges"), hanem hogy mit kap az ügyfél kézhez.
 
-Ha egy idegennek 30 másodpercben kellene elmondanod **mit kap az ügyfél, miután fizetett neked**, mit mondanál? Konkrét fájl? Találkozó? Stratégia-dokumentum? Megépített funnel? Új attitűd? Pontosan mit?
+Ha egy idegennek 30 másodpercben kellene elmondanod **mit kap az ügyfél, miután fizetett neked**, mit mondanál? Konkrét fájl? Találkozó? Stratégia-dokumentum? Megépített rendszer? Új attitűd? Pontosan mit?
 
 ```
 [A te válaszod]
@@ -45,7 +45,7 @@ Ha egy idegennek 30 másodpercben kellene elmondanod **mit kap az ügyfél, miut
 
 Miért téged bízna meg valaki és nem mást? **Nem kell világrengetőnek lennie.** Lehet hogy magyarul beszélsz, lehet hogy gyorsabb vagy, lehet hogy te magad is végigéltél valami olyat, amit az ügyfeleid most.
 
-Ha még csak most kezded és nincs „bizonyítékod", írd azt: **„még nincs, de ezért fognak rám esküdni"** — és írd le a hipotézist.
+Ha még csak most kezded és nincs „bizonyítékod", írd azt: **„még nincs, de ezért fognak rám esküdni"** — és írd le az előzetes gondolatodat.
 
 ```
 [A te válaszod]
@@ -53,7 +53,7 @@ Ha még csak most kezded és nincs „bizonyítékod", írd azt: **„még nincs
 
 ---
 
-## FÁZIS 2 — AZ ÜGYFELED
+## 2. rész — Az ügyfeled
 
 ### Q4 — Konkrét ember
 
@@ -93,22 +93,32 @@ Megengedett válasz: **„még nincs, de ezt fogom csinálni"** — és írd le 
 
 ---
 
-## FÁZIS 3 — A HANGOD
+## 3. rész — A hangod
 
-### Q7 — Verbatim szöveg
+### Q7 — Szó szerinti szöveg
 
 Illessz be 1-2 saját szöveget, amit nemrég írtál. **NE szerkeszd át.**
 
 Egy email, egy Messenger üzenet, egy LinkedIn poszt, egy dokumentum — bármi, ami úgy hangzik ahogy te beszélsz, **amikor nem próbálkozol**.
 
-**Verbatim illeszd be.** Ne gépeld be Claude-dal beszélgetés közben — a chat-formájú minták rosszabbak, mint a semmilyen minta (hangelszennyeződés). A nyers szöveg hibákkal együtt is jobb, mint a kitisztított.
+**Szó szerint illeszd be.** Ne gépeld be Claude-dal beszélgetés közben — a chat-formájú minták rosszabbak, mint a semmilyen minta (kevert hang: ha a Claude-dal beszélgetve gépelsz, az a hang már nem teljesen a tied — keveredik az AI fordulataival). A nyers szöveg hibákkal együtt is jobb, mint a kitisztított.
+
+**Példa egy elfogadható mintára** (NE másold be ezt — a TIED kell):
+
+> Szia Kati!
+>
+> Köszi a jelentkezést. Igen, van még 2 hely az október 15-i csoportomban. Ha érdekel, küldd át pár szóban, hogy korábban mit próbáltál a stressz-csökkentésre — csütörtökön visszahívlak.
+>
+> Üdv, Anna
+
+(Ez egy valódi Messenger / email szöveg lehet, ahogy a felhasználó megírta. Szó szerint = nem szerkesztve, hibákkal együtt jó.)
 
 ```
-[Minta 1 — verbatim, nyersen]
+[Minta 1 — szó szerint, nyersen]
 ```
 
 ```
-[Minta 2 — verbatim, nyersen]
+[Minta 2 — szó szerint, nyersen]
 ```
 
 ---
@@ -117,7 +127,7 @@ Egy email, egy Messenger üzenet, egy LinkedIn poszt, egy dokumentum — bármi,
 
 Hol és mennyire formálisan kommunikálsz az ügyfelekkel? Tegezed őket vagy magázod? Email vagy Messenger? Hosszú gondolatok vagy gyors üzenetek?
 
-És — ami fontos — **mi a különbség** ahogy a barátaiddal beszélsz vs. ahogy az ügyfelekkel? Ha ez a különbség nagy, ott egy hamis hang lakik. Ha ez a különbség kicsi, ott egy autentikus brand alapja van.
+És — ami fontos — **mi a különbség** ahogy a barátaiddal beszélsz vs. ahogy az ügyfelekkel? Ha ez a különbség nagy, ott egy hamis hang lakik. Ha ez a különbség kicsi, ott egy igazi hangod alapja van.
 
 ```
 [A te válaszod]
@@ -125,14 +135,14 @@ Hol és mennyire formálisan kommunikálsz az ügyfelekkel? Tegezed őket vagy m
 
 ---
 
-## FÁZIS 4 — AZ AJÁNLATOD
+## 4. rész — Az ajánlatod
 
 ### Q9 — A csomag
 
 Mit adsz el és mennyiért? **Ha még nincs konkrét csomagod, adj becsléses számot.**
 
 Tartalmazza:
-- Mi a deliverable (Q2-höz kapcsolódjon)
+- Mit kap az ügyfél (Q2-höz kapcsolódjon)
 - Mennyi időbe telik (egyszeri / heti / havi)
 - Mennyibe kerül (forintban, becsléssel ha kell)
 - Hány ügyfelet tudsz kiszolgálni egyszerre
@@ -147,7 +157,7 @@ Ha több ajánlatod van (pl. ingyenes audit + fizetős csomag), írd le mindegyi
 
 ### Q10 — Döntési pillanat
 
-**Mi az az élethelyzet ami előidézi hogy valaki téged keres?** Nem általában, hanem a konkrét trigger.
+**Mi az az élethelyzet ami előidézi hogy valaki téged keres?** Nem általában, hanem a konkrét pillanat.
 
 Példák:
 - „A férjem új munkát kapott és én is váltani akarok."
@@ -155,7 +165,7 @@ Példák:
 - „Megnéztem a múlt hónapi számlámat és kiakadtam."
 - „A versenytársam most indított egy AI-alapú szolgáltatást és nem akarok lemaradni."
 
-Mi az az 1-3 trigger, ami után valaki azt mondja: „most már keresek valakit, aki ebben segít"?
+Mi az az 1-3 pillanat, ami után valaki azt mondja: „most már keresek valakit, aki ebben segít"?
 
 ```
 [A te válaszod]
@@ -163,4 +173,4 @@ Mi az az 1-3 trigger, ami után valaki azt mondja: „most már keresek valakit,
 
 ---
 
-Amikor ez a fájl ki van töltve (vagy ha üresen futtatod), indítsd el a `/alap` skillt, és a varázsló legenerálja a teljes kiinduló csomagot: `context/`, `references/voice.md`, és az EV-AIOS-ba átemelhető `kimenet/ev-aios-atadas.md` handoff dokumentumot.
+Amikor ez a fájl ki van töltve (vagy ha üresen futtatod), indítsd el a `/alap` skillt, és a varázsló legenerálja a teljes kiinduló csomagot: `context/`, `references/voice.md`, és az EV-AIOS-ba átemelhető `kimenet/ev-aios-atadas.md` átadás-dokumentumot.

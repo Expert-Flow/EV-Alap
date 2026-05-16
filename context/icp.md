@@ -1,6 +1,6 @@
 # Ideális ügyfél (ICP)
 
-> *Ez egy template fájl. A `/alap` skill futtatása után a tényleges tartalom váltja fel a placeholdereket. Ne szerkeszd manuálisan az első futtatás előtt — futtasd a `/alap`-ot és az interjú alapján kerül kitöltésre.*
+> *Ez egy template fájl. A `/alap` skill futtatása után a tényleges tartalom váltja fel a helyettesítő szövegeket (üres helyek a sablonban). Ne szerkeszd manuálisan az első futtatás előtt — futtasd a `/alap`-ot és az interjú alapján kerül kitöltésre.*
 
 ---
 
@@ -29,7 +29,7 @@
 
 ## Bizonyíték hogy tudok segíteni
 
-[A `/alap` Q6 válasza alapján: konkrét eredmény, visszajelzés, saját élettapasztalat, képesítés, módszertan, eszközpark. Ha "még nincs", az explicit jelölve marad, plusz a tervezett bizonyíték-stratégia.]
+[A `/alap` Q6 válasza alapján: konkrét eredmény, visszajelzés, saját élettapasztalat, képesítés, módszertan, eszközpark. Ha "még nincs", az explicit jelölve marad ("Még nem teszteltem ügyfeleken — ez egyelőre feltevés."), plusz a tervezett bizonyíték-stratégia.]
 
 ---
 

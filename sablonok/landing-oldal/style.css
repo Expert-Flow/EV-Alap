@@ -64,6 +64,10 @@ ul { padding-left: 1.4em; }
   padding: 6px 14px;
   border: 1px solid #d0d3d8;
   border-radius: 100px;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .hero-cim {
   font-size: 42px;
@@ -171,7 +175,7 @@ ul { padding-left: 1.4em; }
 /* ----- Kártya grid ----- */
 .kartya-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   max-width: 820px;
   margin: 0 auto;
@@ -279,7 +283,7 @@ ul { padding-left: 1.4em; }
   .szakasz h2 { font-size: 24px; }
   .szakasz-szurke { padding-left: 16px; padding-right: 16px; }
   .cta-szakasz { padding: 60px 16px 70px; }
-  .cta { width: 100%; max-width: 320px; }
+  .cta { width: 100%; max-width: 280px; }
   .ar-osszeg { font-size: 34px; }
   .kartya { padding: 22px 18px; }
 }

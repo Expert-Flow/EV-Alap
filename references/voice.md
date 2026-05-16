@@ -1,15 +1,15 @@
 # Hangminta
 
-> *Ez egy template fájl. A `/alap` skill futtatása után a tényleges tartalom váltja fel a placeholdereket. A verbatim minták MAGA a hang — ne szerkeszd át őket, ne tisztítsd ki a hibákat. Az autentikusság fontosabb mint a stilisztikai tisztaság.*
+> *Ez egy template fájl. A `/alap` skill futtatása után a tényleges tartalom váltja fel a helyettesítő szövegeket (üres helyek a sablonban). A szó szerinti minták MAGA a hang — ne szerkeszd át őket, ne tisztítsd ki a hibákat. Az igaziság fontosabb mint a stilisztikai tisztaság.*
 
 ---
 
-## Verbatim minták
+## Szó szerinti minták
 
 ### Minta 1
 
 ```
-[A `/alap` Q7 első mintája — VÁLTOZTATÁS NÉLKÜL. Ha helyesírási hiba van benne, az is marad. Ha tördelés furcsa, az is marad. Ha nem fejezi be a mondatot, az is marad.]
+[A `/alap` Q7 első mintája — VÁLTOZTATÁS NÉLKÜL, szó szerint. Ha helyesírási hiba van benne, az is marad. Ha tördelés furcsa, az is marad. Ha nem fejezi be a mondatot, az is marad.]
 ```
 
 **Forrás:** [email / Messenger / LinkedIn poszt / dokumentum / SMS]
@@ -20,7 +20,7 @@
 ### Minta 2
 
 ```
-[A `/alap` Q7 második mintája — ugyanúgy verbatim, szerkesztetlenül.]
+[A `/alap` Q7 második mintája — ugyanúgy szó szerint, szerkesztetlenül.]
 ```
 
 **Forrás:** [email / Messenger / LinkedIn poszt / dokumentum / SMS]
@@ -36,7 +36,7 @@
 
 ## Megfigyelt jellemzők
 
-### Regiszter
+### Hangnem
 [formális / informális / vegyes — konkrét megfigyelésekkel a mintákból]
 
 ### Mondatszerkezet
@@ -58,10 +58,10 @@
 
 ## Mit NE csinálj a hangom utánzásakor
 
-[3-5 explicit tiltás, hogy ne legyen hangelszennyeződés:]
+[3-5 explicit tiltás, hogy ne legyen kevert hang:]
 
 - [Pl. "Ne tisztítsd ki a hibákat ha kérlek hogy az én hangomon írj."]
-- [Pl. "Ne használj LinkedIn-bullshit szavakat ('leverage', 'synergy', 'unlock', 'thought leader')."]
+- [Pl. "Ne használj LinkedIn-szóhasználatot — üres divatszavakat ('leverage', 'synergy', 'unlock', 'thought leader')."]
 - [Pl. "Ne adj motivációs sortöréseket ('Egyszerű.\\nVilágos.\\nKész.') ha a mintákban nincs ilyen."]
 - [Pl. "Ne dobj be emoji-t ha a mintákból nem látszik hogy használnál."]
 - [Pl. "Ne fordíts át 'kell' szavakat 'érdemes'-re — a direktség a hangod része."]

@@ -79,7 +79,7 @@
   </section>
 
   <!-- =================== CTA =================== -->
-  <section class="szakasz cta-szakasz" aria-labelledby="kapcsolat" id="kapcsolat">
+  <section class="szakasz cta-szakasz" aria-labelledby="kapcsolat-cim" id="kapcsolat">
     <h2 id="kapcsolat-cim">Vágjunk bele</h2>
     <p>{{CTA_BEVEZETO}}</p>
     <a class="cta cta-fo" href="{{KAPCSOLAT}}">{{CTA_SZOVEG}}</a>
@@ -88,12 +88,7 @@
 
   <!-- =================== FOOTER =================== -->
   <footer class="footer">
-    <p>© <span id="ev"></span> {{SAJAT_NEVED}} · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+    <p>© <span id="ev">2026</span> {{SAJAT_NEVED}} · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
   </footer>
-
-  <script>
-    // Aktuális év a footerben
-    document.getElementById('ev').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>

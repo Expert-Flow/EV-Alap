@@ -1,6 +1,6 @@
 # Én magam
 
-> *Ez egy template fájl. A `/alap` skill futtatása után a tényleges tartalom váltja fel a placeholdereket. Ne szerkeszd manuálisan az első futtatás előtt — futtasd a `/alap`-ot és az interjú alapján kerül kitöltésre.*
+> *Ez egy template fájl. A `/alap` skill futtatása után a tényleges tartalom váltja fel a helyettesítő szövegeket (üres helyek a sablonban). Ne szerkeszd manuálisan az első futtatás előtt — futtasd a `/alap`-ot és az interjú alapján kerül kitöltésre.*
 
 ---
 
@@ -12,13 +12,13 @@
 
 ## Mit csinálok konkrétan
 
-[A `/alap` Q2 válasza alapján: a tényleges deliverable. NEM a kategória ("coach", "tanácsadó"), hanem amit az ügyfél fizetés után kézhez kap.]
+[A `/alap` Q2 válasza alapján: mit kap az ügyfél kézhez konkrétan. NEM a kategória ("coach", "tanácsadó"), hanem amit az ügyfél fizetés után kézhez kap.]
 
 ---
 
-## Differenciátor — miért én
+## Mitől vagyok más — miért én
 
-[A `/alap` Q3 válasza alapján: miért engem bíz meg valaki. Ha a válasz "még nincs bizonyíték", a hipotézis explicit jelölve marad.]
+[A `/alap` Q3 válasza alapján: miért engem bíz meg valaki. Ha a válasz "még nincs bizonyíték", az előzetes gondolat explicit jelölve marad: "Még nem teszteltem ügyfeleken — ez egyelőre feltevés."]
 
 ---
 
