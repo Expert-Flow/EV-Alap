@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ICP_PROBLEMA}} — {{AJANLAT_NEVE}}. {{DIFFERENCIATOR}}.">
+  <title>{{AJANLAT_NEVE}} — {{SAJAT_NEVED}}</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Skip link a billentyűzettel navigálók számára -->
+  <a class="skip-link" href="#fo-tartalom">Ugrás a fő tartalomhoz</a>
+
+  <!-- =================== HERO =================== -->
+  <header class="hero" id="fo-tartalom">
+    <div class="hero-inner">
+      <p class="eyebrow">{{EYEBROW_SZOVEG}}</p>
+      <h1 class="hero-cim">
+        {{HERO_FOSZOVEG}}
+      </h1>
+      <p class="hero-alszoveg">
+        {{HERO_ALSZOVEG}}
+      </p>
+      <a class="cta cta-fo" href="#kapcsolat">{{CTA_SZOVEG}}</a>
+      <p class="hero-jelzes">{{BIZONYITEK}}</p>
+    </div>
+  </header>
+
+  <!-- =================== KINEK SZÓL =================== -->
+  <section class="szakasz" aria-labelledby="kinek-cim">
+    <h2 id="kinek-cim">Ez neked való, ha…</h2>
+    <ul class="lista-checkmark">
+      <li>{{KINEK_1}}</li>
+      <li>{{KINEK_2}}</li>
+      <li>{{KINEK_3}}</li>
+    </ul>
+  </section>
+
+  <!-- =================== MIT KAPSZ =================== -->
+  <section class="szakasz szakasz-szurke" aria-labelledby="mit-kapsz-cim">
+    <h2 id="mit-kapsz-cim">Mit kapsz</h2>
+    <div class="kartya-grid">
+      <article class="kartya">
+        <h3>{{KARTYA_1_CIM}}</h3>
+        <p>{{KARTYA_1_LEIRAS}}</p>
+      </article>
+      <article class="kartya">
+        <h3>{{KARTYA_2_CIM}}</h3>
+        <p>{{KARTYA_2_LEIRAS}}</p>
+      </article>
+      <article class="kartya">
+        <h3>{{KARTYA_3_CIM}}</h3>
+        <p>{{KARTYA_3_LEIRAS}}</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- =================== EREDMÉNY =================== -->
+  <section class="szakasz" aria-labelledby="eredmeny-cim">
+    <h2 id="eredmeny-cim">Mire számíthatsz</h2>
+    <p class="szakasz-bevezeto">{{EREDMENY}}</p>
+  </section>
+
+  <!-- =================== MIÉRT ÉN =================== -->
+  <section class="szakasz szakasz-szurke" aria-labelledby="miert-en-cim">
+    <h2 id="miert-en-cim">Miért én</h2>
+    <p>{{DIFFERENCIATOR_HOSSZU}}</p>
+  </section>
+
+  <!-- =================== ÁR / CSOMAG =================== -->
+  <section class="szakasz" aria-labelledby="ar-cim">
+    <h2 id="ar-cim">A csomag</h2>
+    <div class="ar-blokk">
+      <p class="ar-nev">{{AJANLAT_NEVE}}</p>
+      <p class="ar-osszeg">{{AR}}</p>
+      <p class="ar-jegyzet">{{AR_JEGYZET}}</p>
+    </div>
+  </section>
+
+  <!-- =================== CTA =================== -->
+  <section class="szakasz cta-szakasz" aria-labelledby="kapcsolat" id="kapcsolat">
+    <h2 id="kapcsolat-cim">Vágjunk bele</h2>
+    <p>{{CTA_BEVEZETO}}</p>
+    <a class="cta cta-fo" href="{{KAPCSOLAT}}">{{CTA_SZOVEG}}</a>
+    <p class="cta-jegyzet">{{CTA_JEGYZET}}</p>
+  </section>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="footer">
+    <p>© <span id="ev"></span> {{SAJAT_NEVED}} · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+  </footer>
+
+  <script>
+    // Aktuális év a footerben
+    document.getElementById('ev').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

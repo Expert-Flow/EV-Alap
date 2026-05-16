@@ -1,0 +1,291 @@
+/* =========================================================
+   EV-Alap landing oldal — minimális, mobilra optimalizált
+   Egy CSS, semmi külső függőség. Drag & drop deployhoz kész.
+   ========================================================= */
+
+/* ----- Reset és alapok ----- */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.6em;
+  line-height: 1.25;
+}
+p { margin: 0 0 1em; }
+a { color: #1a73e8; text-decoration: underline; text-underline-offset: 2px; }
+a:hover { text-decoration: none; }
+ul { padding-left: 1.4em; }
+
+/* ----- Skip link (a11y) ----- */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: #1a1a1a;
+  color: #fff;
+  padding: 12px 18px;
+  text-decoration: none;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid #fbbc04;
+}
+
+/* ----- Hero ----- */
+.hero {
+  padding: 80px 20px 100px;
+  background: linear-gradient(180deg, #f7f8fc 0%, #ffffff 100%);
+  text-align: center;
+}
+.hero-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.eyebrow {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #5f6368;
+  margin-bottom: 24px;
+  padding: 6px 14px;
+  border: 1px solid #d0d3d8;
+  border-radius: 100px;
+}
+.hero-cim {
+  font-size: 42px;
+  margin-bottom: 24px;
+}
+.hero-alszoveg {
+  font-size: 19px;
+  color: #4a4a4a;
+  margin-bottom: 36px;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-jelzes {
+  margin-top: 24px;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+/* ----- CTA gombok ----- */
+.cta {
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: transform 0.1s ease, box-shadow 0.2s ease;
+  min-width: 200px;
+  /* min 44x44 tap target a11y */
+  min-height: 44px;
+}
+.cta-fo {
+  background: #1a1a1a;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+.cta-fo:hover {
+  background: #000000;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+.cta-fo:focus-visible {
+  outline: 3px solid #fbbc04;
+  outline-offset: 3px;
+}
+
+/* ----- Szakaszok ----- */
+.szakasz {
+  padding: 70px 20px;
+  max-width: 820px;
+  margin: 0 auto;
+}
+.szakasz h2 {
+  font-size: 30px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+.szakasz-szurke {
+  background: #f7f8fc;
+  max-width: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.szakasz-szurke > * {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.szakasz-bevezeto {
+  font-size: 19px;
+  color: #4a4a4a;
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ----- Lista checkmarkkal ----- */
+.lista-checkmark {
+  list-style: none;
+  padding: 0;
+  max-width: 580px;
+  margin: 0 auto;
+}
+.lista-checkmark li {
+  padding: 14px 0 14px 36px;
+  position: relative;
+  border-bottom: 1px solid #e8eaed;
+  font-size: 17px;
+}
+.lista-checkmark li:last-child {
+  border-bottom: none;
+}
+.lista-checkmark li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 14px;
+  color: #34a853;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* ----- Kártya grid ----- */
+.kartya-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 820px;
+  margin: 0 auto;
+}
+.kartya {
+  background: #ffffff;
+  border: 1px solid #e8eaed;
+  border-radius: 12px;
+  padding: 28px 24px;
+}
+.kartya h3 {
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+.kartya p {
+  font-size: 15px;
+  color: #4a4a4a;
+  margin: 0;
+}
+
+/* ----- Ár blokk ----- */
+.ar-blokk {
+  text-align: center;
+  padding: 40px 24px;
+  border: 2px solid #1a1a1a;
+  border-radius: 16px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.ar-nev {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #5f6368;
+  margin-bottom: 8px;
+}
+.ar-osszeg {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+  line-height: 1.1;
+}
+.ar-jegyzet {
+  font-size: 15px;
+  color: #5f6368;
+  margin: 0;
+}
+
+/* ----- CTA szakasz ----- */
+.cta-szakasz {
+  text-align: center;
+  padding: 80px 20px 90px;
+  background: #1a1a1a;
+  color: #ffffff;
+  max-width: none;
+}
+.cta-szakasz > * {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-szakasz h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+.cta-szakasz p {
+  font-size: 18px;
+  color: #d0d3d8;
+  margin-bottom: 32px;
+}
+.cta-szakasz .cta-fo {
+  background: #ffffff;
+  color: #1a1a1a;
+}
+.cta-szakasz .cta-fo:hover {
+  background: #f1f3f4;
+}
+.cta-jegyzet {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #9aa0a6;
+}
+
+/* ----- Footer ----- */
+.footer {
+  padding: 36px 20px;
+  text-align: center;
+  background: #f1f3f4;
+  font-size: 14px;
+  color: #5f6368;
+}
+.footer a {
+  color: #5f6368;
+}
+
+/* ============= MOBILE (≤ 640px) ============= */
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .hero { padding: 56px 16px 70px; }
+  .hero-cim { font-size: 30px; }
+  .hero-alszoveg { font-size: 17px; }
+  .szakasz { padding: 50px 16px; }
+  .szakasz h2 { font-size: 24px; }
+  .szakasz-szurke { padding-left: 16px; padding-right: 16px; }
+  .cta-szakasz { padding: 60px 16px 70px; }
+  .cta { width: 100%; max-width: 320px; }
+  .ar-osszeg { font-size: 34px; }
+  .kartya { padding: 22px 18px; }
+}
+
+/* ============= REDUCED MOTION ============= */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .cta-fo:hover { transform: none; }
+}
