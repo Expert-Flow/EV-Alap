@@ -1,96 +1,129 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="hu" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ICP_PROBLEMA}} — {{AJANLAT_NEVE}}. {{DIFFERENCIATOR}}.">
-  <!-- Biztonsági fejléc: csak a saját mappádból töltődnek dolgok. Megakadályozza, hogy idegen szkript bemásolódjon az oldaladba. -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data:; script-src 'none'; base-uri 'self'; form-action 'self';">
+  <!-- Biztonsági fejléc: csak a saját mappádból és a Google Fonts-ról töltődnek dolgok. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'none'; base-uri 'self'; form-action 'self';">
   <title>{{AJANLAT_NEVE}} — {{SAJAT_NEVED}}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Skip link a billentyűzettel navigálók számára -->
   <a class="skip-link" href="#fo-tartalom">Ugrás a fő tartalomhoz</a>
+
+  <div class="bg-grain" aria-hidden="true"></div>
 
   <!-- =================== HERO =================== -->
   <header class="hero" id="fo-tartalom">
-    <div class="hero-inner">
-      <p class="eyebrow">{{EYEBROW_SZOVEG}}</p>
+    <div class="container">
+      <p class="eyebrow">
+        <span class="eyebrow-dot"></span>
+        {{EYEBROW_SZOVEG}}
+      </p>
       <h1 class="hero-cim">
         {{HERO_FOSZOVEG}}
       </h1>
       <p class="hero-alszoveg">
         {{HERO_ALSZOVEG}}
       </p>
-      <a class="cta cta-fo" href="#kapcsolat">{{CTA_SZOVEG}}</a>
-      <p class="hero-jelzes">{{BIZONYITEK}}</p>
+      <div class="hero-cta-row">
+        <a class="btn btn-primary" href="#kapcsolat">{{CTA_SZOVEG}}</a>
+        <span class="hero-jelzes">{{BIZONYITEK}}</span>
+      </div>
     </div>
   </header>
 
   <!-- =================== KINEK SZÓL =================== -->
   <section class="szakasz" aria-labelledby="kinek-cim">
-    <h2 id="kinek-cim">Ez neked való, ha…</h2>
-    <ul class="lista-checkmark">
-      <li>{{KINEK_1}}</li>
-      <li>{{KINEK_2}}</li>
-      <li>{{KINEK_3}}</li>
-    </ul>
+    <div class="container container-narrow">
+      <p class="szakasz-label">01 · Kinek szól</p>
+      <h2 id="kinek-cim" class="szakasz-cim">Ez neked való, ha…</h2>
+      <ul class="lista-tagolt">
+        <li>{{KINEK_1}}</li>
+        <li>{{KINEK_2}}</li>
+        <li>{{KINEK_3}}</li>
+      </ul>
+    </div>
   </section>
 
   <!-- =================== MIT KAPSZ =================== -->
-  <section class="szakasz szakasz-szurke" aria-labelledby="mit-kapsz-cim">
-    <h2 id="mit-kapsz-cim">Mit kapsz</h2>
-    <div class="kartya-grid">
-      <article class="kartya">
-        <h3>{{KARTYA_1_CIM}}</h3>
-        <p>{{KARTYA_1_LEIRAS}}</p>
-      </article>
-      <article class="kartya">
-        <h3>{{KARTYA_2_CIM}}</h3>
-        <p>{{KARTYA_2_LEIRAS}}</p>
-      </article>
-      <article class="kartya">
-        <h3>{{KARTYA_3_CIM}}</h3>
-        <p>{{KARTYA_3_LEIRAS}}</p>
-      </article>
+  <section class="szakasz szakasz-elev" aria-labelledby="mit-kapsz-cim">
+    <div class="container">
+      <p class="szakasz-label">02 · Mit kapsz</p>
+      <h2 id="mit-kapsz-cim" class="szakasz-cim">A csomag</h2>
+      <div class="kartya-grid">
+        <article class="kartya">
+          <span class="kartya-num">01</span>
+          <h3>{{KARTYA_1_CIM}}</h3>
+          <p>{{KARTYA_1_LEIRAS}}</p>
+        </article>
+        <article class="kartya">
+          <span class="kartya-num">02</span>
+          <h3>{{KARTYA_2_CIM}}</h3>
+          <p>{{KARTYA_2_LEIRAS}}</p>
+        </article>
+        <article class="kartya">
+          <span class="kartya-num">03</span>
+          <h3>{{KARTYA_3_CIM}}</h3>
+          <p>{{KARTYA_3_LEIRAS}}</p>
+        </article>
+      </div>
     </div>
   </section>
 
   <!-- =================== EREDMÉNY =================== -->
   <section class="szakasz" aria-labelledby="eredmeny-cim">
-    <h2 id="eredmeny-cim">Mire számíthatsz</h2>
-    <p class="szakasz-bevezeto">{{EREDMENY}}</p>
+    <div class="container container-narrow">
+      <p class="szakasz-label">03 · Az eredmény</p>
+      <h2 id="eredmeny-cim" class="szakasz-cim">Mire <em>számíthatsz</em></h2>
+      <p class="szakasz-bevezeto">{{EREDMENY}}</p>
+    </div>
   </section>
 
   <!-- =================== MIÉRT ÉN =================== -->
-  <section class="szakasz szakasz-szurke" aria-labelledby="miert-en-cim">
-    <h2 id="miert-en-cim">Miért én</h2>
-    <p>{{DIFFERENCIATOR_HOSSZU}}</p>
+  <section class="szakasz szakasz-elev" aria-labelledby="miert-en-cim">
+    <div class="container container-narrow">
+      <p class="szakasz-label">04 · Miért én</p>
+      <h2 id="miert-en-cim" class="szakasz-cim">A háttér</h2>
+      <p class="szakasz-szoveg">{{DIFFERENCIATOR_HOSSZU}}</p>
+    </div>
   </section>
 
   <!-- =================== ÁR / CSOMAG =================== -->
   <section class="szakasz" aria-labelledby="ar-cim">
-    <h2 id="ar-cim">A csomag</h2>
-    <div class="ar-blokk">
-      <p class="ar-nev">{{AJANLAT_NEVE}}</p>
-      <p class="ar-osszeg">{{AR}}</p>
-      <p class="ar-jegyzet">{{AR_JEGYZET}}</p>
+    <div class="container container-narrow">
+      <p class="szakasz-label">05 · A befektetés</p>
+      <h2 id="ar-cim" class="szakasz-cim">{{AJANLAT_NEVE}}</h2>
+      <div class="ar-blokk">
+        <p class="ar-osszeg">{{AR}}</p>
+        <p class="ar-jegyzet">{{AR_JEGYZET}}</p>
+      </div>
     </div>
   </section>
 
   <!-- =================== CTA =================== -->
   <section class="szakasz cta-szakasz" aria-labelledby="kapcsolat-cim" id="kapcsolat">
-    <h2 id="kapcsolat-cim">Vágjunk bele</h2>
-    <p>{{CTA_BEVEZETO}}</p>
-    <a class="cta cta-fo" href="{{KAPCSOLAT}}">{{CTA_SZOVEG}}</a>
-    <p class="cta-jegyzet">{{CTA_JEGYZET}}</p>
+    <div class="container container-narrow">
+      <p class="szakasz-label szakasz-label-light">06 · Beszéljünk</p>
+      <h2 id="kapcsolat-cim" class="szakasz-cim">Vágjunk <em>bele</em></h2>
+      <p class="cta-bevezeto">{{CTA_BEVEZETO}}</p>
+      <a class="btn btn-primary btn-large" href="{{KAPCSOLAT}}">{{CTA_SZOVEG}}</a>
+      <p class="cta-jegyzet">{{CTA_JEGYZET}}</p>
+    </div>
   </section>
 
   <!-- =================== FOOTER =================== -->
   <footer class="footer">
-    <p>© <span id="ev">2026</span> {{SAJAT_NEVED}} · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+    <div class="container">
+      <p class="footer-text">© <span id="ev">2026</span> {{SAJAT_NEVED}}</p>
+      <a class="footer-email" href="mailto:{{EMAIL}}">{{EMAIL}}</a>
+    </div>
   </footer>
+
 </body>
 </html>
