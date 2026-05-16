@@ -11,3 +11,4 @@ private/
 .claude/scheduled_tasks.lock
 .claude/settings.local.json
 .claude/projects/
+.vercel/
