@@ -101,6 +101,8 @@ A `/alap` skill futtatása után 5 fájl áll a rendelkezésedre:
 
 Másik út: ha jártas vagy a git-tel, le is **másolhatod magadnak (Fork)** a repo-t a GitHub-on a **Fork** gombbal, vagy **letöltheted a saját gépedre (klónozd)** a `git clone https://github.com/Expert-Flow/EV-Alap` paranccsal.
 
+> **Elakadtál?** Nézd meg a [GYIK.md](GYIK.md)-t (gyakori kérdések, hibaelhárítás — köztük a „még nincs ügyfelem" helyzet) és a [glosszárium](glosszarium.md)-ot (fogalmak magyarul).
+
 ---
 
 ## Mit NE várj ettől a repo-tól
@@ -118,6 +120,8 @@ Másik út: ha jártas vagy a git-tel, le is **másolhatod magadnak (Fork)** a r
 ```
 EV-Alap/
 ├── README.md                         (ez a fájl)
+├── GYIK.md                           (gyakori kérdések + hibaelhárítás)
+├── glosszarium.md                    (minden fogalom egy mondatban)
 ├── CLAUDE.md                         (márka-feltárás operatori manual)
 ├── alap-intake.md                    (10 kérdés helyettesítő szöveggel)
 ├── LICENSE
