@@ -29,6 +29,8 @@ Az `index.html` fájlban kb. **25 helyettesítő szöveg** van. Mindegyik egyetl
 | `{{CTA_JEGYZET}}` | apró biztosíték a gomb alá | „Általában 1 napon belül válaszolok." |
 | `{{KAPCSOLAT}}` | a fő gomb hivatkozása — email-link vagy időpontfoglaló cím | `mailto:te@email.hu` vagy `https://cal.com/te/15perc` |
 | `{{EMAIL}}` | csak az email-címed (a láblécben jelenik meg) | `te@email.hu` |
+| `{{ICP_PROBLEMA}}` | az ügyfeled fő problémája egy mondatban — a böngészőfülön és a Google-találatban látszik, nem magán az oldalon | „Éjszakai ügyfél-emailek árasztanak el" |
+| `{{DIFFERENCIATOR}}` | rövid, egymondatos megkülönböztető — szintén a Google-találatban jelenik meg | „13 év szakma és AI egy emberben" |
 
 **Tipp Claude-dal:** ha megnyitod a kitöltött EV-Alap mappádat a Claude Code-ban, és odaadod neki ezt az `index.html`-t, egyetlen kéréssel kitölti az összes helyettesítőt.
 

@@ -79,9 +79,9 @@ A `/alap` skill futtatása után 5 fájl áll a rendelkezésedre:
    - Mac-en: nyomd `Cmd + Space`, írd be `Terminal`, Enter.
    - Windows-on: keresd a Start menüben a `Parancssor`-t (vagy PowerShell-t).
 
-3. **Lépj be a letöltött mappába.** Ezt írd be:
+3. **Lépj be a letöltött mappába.** Ezt írd be (a `~` a saját felhasználói mappádat jelenti, így bárhonnan működik):
    ```
-   cd Desktop/EV-Alap
+   cd ~/Desktop/EV-Alap
    ```
    (Ha máshova csomagoltad ki, írd át az útvonalat.)
 

@@ -2,6 +2,8 @@
 
 Ez a fájl a brand-tisztaságod forrásdokumentuma. **MIELŐTT** elindítod az EV-AIOS-t, töltsd ki ezt — vagy futtasd a `/alap` skillt egy vezetett interjún keresztül.
 
+> **Adatvédelem:** kitöltés után ez a fájl a személyes és üzleti adataidat tartalmazza. Ha a repót GitHubra töltöd, győződj meg róla, hogy **privát** — vagy a kitöltött `alap-intake.md`-t és a `context/` fájlokat ne pushold publikus repóba.
+
 A `/alap` ebből a fájlból dolgozik. A válaszaid alapján legenerálja:
 - `context/en-magam.md` — ki vagy
 - `context/icp.md` — kinek dolgozol
