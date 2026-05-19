@@ -62,7 +62,7 @@ A Netlify-on belül: **Domain management**, majd **Add custom domain**. A Netlif
 
 ## Ha nem szimpatikus a Netlify
 
-Két másik út, ugyanúgy ingyenes:
+Két másik út, ugyanúgy díjmentes:
 
 - **Cloudflare Pages** — `pages.cloudflare.com`, ugyanúgy fogd-és-vidd, mappát feltöltesz. Európai szerverek, GDPR-barátabb.
 - **GitHub Pages** — ha tudsz Git-et: hozz létre egy GitHub repo-t, töltsd fel a 3 fájlt, kapcsold be a Pages-t a Settings-ben. (Kezdőnek nehezebb.)

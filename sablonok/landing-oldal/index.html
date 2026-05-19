@@ -40,10 +40,10 @@
           <span class="brand-logo">{{SAJAT_NEVED}}</span>
         </a>
         <a href="#kapcsolat" class="gc gc-link">
-          <span class="label-sm with-arrow">A csomag</span>
+          <span class="label-sm">A csomag</span>
         </a>
         <a href="mailto:{{EMAIL}}" class="gc gc-link">
-          <span class="label-sm with-arrow">Írj nekem</span>
+          <span class="label-sm">Írj nekem</span>
         </a>
       </div>
 
@@ -79,9 +79,9 @@
     <!-- =================== 01 · KINEK VALÓ =================== -->
     <div class="section-head">
       <span class="label-num">01</span>
-      <span class="label-lg"><em>Kinek</em> való</span>
+      <h2 class="label-lg" id="szakasz-kinek"><em>Kinek</em> való</h2>
     </div>
-    <div class="g g-feat features-wrap">
+    <div class="g g-feat features-wrap" aria-labelledby="szakasz-kinek">
       <article class="feat-cell">
         <h3 class="feat-eyebrow">Ha…</h3>
         <p class="feat-body">{{KINEK_1}}</p>
@@ -99,9 +99,9 @@
     <!-- =================== 02 · MIT KAPSZ =================== -->
     <div class="section-head">
       <span class="label-num">02</span>
-      <span class="label-lg">Mit <em>kapsz</em></span>
+      <h2 class="label-lg" id="szakasz-mit-kapsz">Mit <em>kapsz</em></h2>
     </div>
-    <div class="g g-feat features-wrap">
+    <div class="g g-feat features-wrap" aria-labelledby="szakasz-mit-kapsz">
       <article class="feat-cell">
         <h3 class="feat-eyebrow">{{KARTYA_1_CIM}}</h3>
         <p class="feat-body">{{KARTYA_1_LEIRAS}}</p>
@@ -119,9 +119,9 @@
     <!-- =================== 03 · EREDMÉNY (demo-row stílus) =================== -->
     <div class="section-head">
       <span class="label-num">03</span>
-      <span class="label-lg">Mire <em>számíthatsz</em></span>
+      <h2 class="label-lg" id="szakasz-eredmeny">Mire <em>számíthatsz</em></h2>
     </div>
-    <div class="demo-row">
+    <div class="demo-row" aria-labelledby="szakasz-eredmeny">
       <div class="demo-text">
         <p class="lede">{{EREDMENY}}</p>
       </div>
@@ -135,18 +135,18 @@
     <!-- =================== 04 · MIÉRT ÉN =================== -->
     <div class="section-head">
       <span class="label-num">04</span>
-      <span class="label-lg"><em>Miért</em> én</span>
+      <h2 class="label-lg" id="szakasz-miert"><em>Miért</em> én</h2>
     </div>
-    <section class="szakasz-text">
+    <section class="szakasz-text" aria-labelledby="szakasz-miert">
       <p class="lede">{{DIFFERENCIATOR_HOSSZU}}</p>
     </section>
 
     <!-- =================== 05 · A CSOMAG (demo-row stílus) =================== -->
     <div class="section-head">
       <span class="label-num">05</span>
-      <span class="label-lg">A <em>csomag</em></span>
+      <h2 class="label-lg" id="szakasz-csomag">A <em>csomag</em></h2>
     </div>
-    <div class="demo-row">
+    <div class="demo-row" aria-labelledby="szakasz-csomag">
       <div class="ar-info">
         <p class="ar-cim-mono">{{AJANLAT_NEVE}}</p>
         <p class="ar-osszeg-serif">{{AR}}</p>
@@ -162,9 +162,9 @@
     <!-- =================== 06 · VÁGJUNK BELE =================== -->
     <div class="section-head" id="kapcsolat">
       <span class="label-num">06</span>
-      <span class="label-lg"><em>Vágjunk</em> bele</span>
+      <h2 class="label-lg" id="szakasz-cta"><em>Vágjunk</em> bele</h2>
     </div>
-    <section class="cta-final">
+    <section class="cta-final" aria-labelledby="szakasz-cta">
       <p class="lede">{{CTA_BEVEZETO}}</p>
       <a class="btn-primary btn-large" href="{{KAPCSOLAT}}">{{CTA_SZOVEG}}</a>
       <p class="cta-jegyzet">{{CTA_JEGYZET}}</p>
@@ -179,7 +179,7 @@
       <span class="label-sm accent">{{AJANLAT_NEVE}}</span>
     </div>
     <div class="gc">
-      <a href="mailto:{{EMAIL}}" class="label-sm with-arrow">{{EMAIL}}</a>
+      <a href="mailto:{{EMAIL}}" class="label-sm">{{EMAIL}}</a>
     </div>
     <div class="gc">
       <span class="label-sm dim">© <span id="ev">2026</span> · {{SAJAT_NEVED}}</span>

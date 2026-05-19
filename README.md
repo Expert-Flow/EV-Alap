@@ -2,7 +2,7 @@
 
 A magyar egyéni vállalkozók AI-eszközeinek **első, kötelező lépése**: tisztázd ki vagy, kinek dolgozol, és hogyan beszélsz — még mielőtt bármi mást építenél. Készítette a [Solo Business](https://solobusiness.hu).
 
-Egy ingyenes, MIT-licenszelt sablon. A célja egyetlen kérdés tisztázása:
+Egy nyíltan elérhető, MIT-licenszelt sablon — szabadon használhatod. A célja egyetlen kérdés tisztázása:
 
 > **Ki vagy, kinek dolgozol, mit adsz el, és hogyan beszélsz?**
 
